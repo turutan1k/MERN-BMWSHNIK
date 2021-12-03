@@ -1,0 +1,70 @@
+.authorization{
+    font-family: "Merriweather", serif;
+    font-size:34px;
+    display: flex;
+    flex-direction: column;
+    width: 688px;
+    height: 688px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin:auto;
+    padding:auto;
+    box-shadow: 0px 2px 20px grey;
+    border:1px;
+    align-self: center;
+    margin-top:50px;
+}
+
+.authorization__header{
+    font-family: "Merriweather", serif;
+    font-size:40px;
+    width:400px;
+    height:100px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:black;
+}
+
+.input{
+    margin:20 px;
+}
+
+.authorization-btn{
+    font-family: "Merriweather", serif;
+    font-size:34px;
+    width:400px;
+    height:90px;
+    align-items:center;
+    border-radius: 20px;
+    background: black;
+    margin:auto;
+    padding: 20px;
+    justify-content: center;
+    color:white;
+}
+
+.pwdError{
+    color:rgb(255, 0, 0);
+    opacity: 70%;
+    font-size: 20px;
+
+}
+
+.notAuth{
+    font-family: "Merriweather", serif;
+    font-size:14px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color:black;
+}
+
+.defoltLink {
+    text-decoration: none;
+    color: #333333;
+    list-style: none;
+  }
